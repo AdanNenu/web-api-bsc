@@ -5,7 +5,7 @@ Para probar la aplicacion:
 
 1. Abrir este proyecto desde .Net.
 2. Migrar base de datos 
-3. Poblar BD y probar servicios con postman
+3. Poblar BD y probar servicios con postman (Dado que no terminé el desarrollo front-end)
 
 
 Para migrar la base de datos:
