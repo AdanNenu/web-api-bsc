@@ -1,13 +1,13 @@
 # web-api-bsc
 Aplicación Web con Blazor, .Net. y EF.
 Revisa los archivos entregables, en la carpeta "Entregables" de este proyecto:
-BackLog
-Archivos json
-Analisis 
+BackLog,
+Archivos json,
+Analisis, 
 Diagrama ER
 
 Para probar la aplicacion:
-
+0. Mira el video explicativo: https://www.youtube.com/watch?v=3auBK2qS-KE
 1. Abrir este proyecto desde .Net.
 2. Migrar base de datos 
 3. Poblar BD y probar servicios con postman (Dado que no comencé el desarrollo front-end)
