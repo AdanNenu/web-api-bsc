@@ -1,0 +1,75 @@
+{
+	"info": {
+		"_postman_id": "07709c86-cc34-41b6-902d-6e69af3da1d6",
+		"name": "Accion resgistrarPedido",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "33997262"
+	},
+	"item": [
+		{
+			"name": "registrarPedidoDespensa",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"totalPedido\" : 380,\r\n    \"fkUsuarioRegistro\" : 3\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/api/ServiciosRestBSC/registrarPedido/",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"ServiciosRestBSC",
+						"registrarPedido",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "registrarPedidoFiesta",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"totalPedido\" : 600,\r\n    \"fkUsuarioRegistro\" : 3\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/api/ServiciosRestBSC/registrarPedido/",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"ServiciosRestBSC",
+						"registrarPedido",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"variable": [
+		{
+			"key": "baseUrl",
+			"value": "https://localhost:7007",
+			"type": "default"
+		}
+	]
+}

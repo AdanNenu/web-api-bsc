@@ -1,0 +1,186 @@
+{
+	"info": {
+		"_postman_id": "07d653cf-3f3e-4fc6-9549-339d2ac9e363",
+		"name": "Accion validarContrasena",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "33997262",
+		"_collection_link": "https://crimson-capsule-915586.postman.co/workspace/New-Team-Workspace~eb5506e4-8859-4d17-9895-2836479b1ba4/collection/33997262-07d653cf-3f3e-4fc6-9549-339d2ac9e363?action=share&source=collection_link&creator=33997262"
+	},
+	"item": [
+		{
+			"name": "CadenaVacia",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "\"\"",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/api/ServiciosRestBSC/validarContrasena",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"ServiciosRestBSC",
+						"validarContrasena"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CadenaSinLetras",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "\"897832764\"",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/api/ServiciosRestBSC/validarContrasena",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"ServiciosRestBSC",
+						"validarContrasena"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CadenaSinNumeros",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "\"oiyqwyeqwe\"",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/api/ServiciosRestBSC/validarContrasena",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"ServiciosRestBSC",
+						"validarContrasena"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CadenaPocaLongitud",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "\"Hola1\"",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/api/ServiciosRestBSC/validarContrasena",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"ServiciosRestBSC",
+						"validarContrasena"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CadenaMuchaLongitud",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "\"Hola1kjdsahfdhafudsaifidsafhugdsfdfgs\"",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/api/ServiciosRestBSC/validarContrasena",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"ServiciosRestBSC",
+						"validarContrasena"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CadenaAceptada",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "\"Hola123\"",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/api/ServiciosRestBSC/validarContrasena",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"ServiciosRestBSC",
+						"validarContrasena"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"variable": [
+		{
+			"key": "baseUrl",
+			"value": "https://localhost:7007",
+			"type": "default"
+		}
+	]
+}

@@ -1,0 +1,104 @@
+{
+	"info": {
+		"_postman_id": "5be3e6c4-d301-4b8a-b8c9-02bc345166ed",
+		"name": "Accion  registrarContrasena",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "33997262"
+	},
+	"item": [
+		{
+			"name": "agregarCotrasenaA",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"fkUsuario\": 1,\r\n    \"ContrasenaUsuario\": \"imposible1\",\r\n    \"fkUsuarioRegistro\": 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/api/ServiciosRestBSC/registrarContrasena/",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"ServiciosRestBSC",
+						"registrarContrasena",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "agregarCotrasenaB",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"fkUsuario\": 2,\r\n    \"ContrasenaUsuario\": \"imposible2\",\r\n    \"fkUsuarioRegistro\": 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/api/ServiciosRestBSC/registrarContrasena/",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"ServiciosRestBSC",
+						"registrarContrasena",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "agregarCotrasenaC",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"fkUsuario\": 3,\r\n    \"ContrasenaUsuario\": \"imposible3\",\r\n    \"fkUsuarioRegistro\": 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/api/ServiciosRestBSC/registrarContrasena/",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"ServiciosRestBSC",
+						"registrarContrasena",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"variable": [
+		{
+			"key": "baseUrl",
+			"value": "https://localhost:7007",
+			"type": "default"
+		}
+	]
+}

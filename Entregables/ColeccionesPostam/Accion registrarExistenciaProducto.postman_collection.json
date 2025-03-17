@@ -1,0 +1,104 @@
+{
+	"info": {
+		"_postman_id": "5de977d4-83fc-4714-ad79-3504bf6634b1",
+		"name": "Accion registrarExistenciaProducto",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "33997262"
+	},
+	"item": [
+		{
+			"name": "registrarExistenciaPapel",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"fkProducto\" : 1,\r\n    \"cantidadDisponible\" : 350\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/api/ServiciosRestBSC/registrarExistenciaProducto/",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"ServiciosRestBSC",
+						"registrarExistenciaProducto",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "registrarExistenciaVino",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"fkProducto\" : 2,\r\n    \"cantidadDisponible\" : 50\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/api/ServiciosRestBSC/registrarExistenciaProducto/",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"ServiciosRestBSC",
+						"registrarExistenciaProducto",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "registrarExistenciaSopa",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"fkProducto\" : 3,\r\n    \"cantidadDisponible\" : 1000\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/api/ServiciosRestBSC/registrarExistenciaProducto/",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"ServiciosRestBSC",
+						"registrarExistenciaProducto",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"variable": [
+		{
+			"key": "baseUrl",
+			"value": "",
+			"type": "default"
+		}
+	]
+}

@@ -1,0 +1,109 @@
+{
+	"info": {
+		"_postman_id": "a2af2004-5a5f-4f32-a506-a94288eefef8",
+		"name": "Accion registrarPrecioProducto",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "33997262"
+	},
+	"item": [
+		{
+			"name": "registrarPrecioPapel",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"fkProducto\" :1,\r\n    \"costoSinIva\": 30\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/api/ServiciosRestBSC/registrarPrecioProducto/",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"ServiciosRestBSC",
+						"registrarPrecioProducto",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "registrarPrecioVino",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"fkProducto\" :2,\r\n    \"costoSinIva\": 200\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/api/ServiciosRestBSC/registrarPrecioProducto/",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"ServiciosRestBSC",
+						"registrarPrecioProducto",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "registrarPrecioSopa",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"fkProducto\" :3,\r\n    \"costoSinIva\": 6\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/api/ServiciosRestBSC/registrarPrecioProducto/",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"ServiciosRestBSC",
+						"registrarPrecioProducto",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"variable": [
+		{
+			"key": "baseUrl",
+			"value": "https://localhost:7007",
+			"type": "default"
+		},
+		{
+			"key": "baseUrl",
+			"value": "https://localhost:7007",
+			"type": "default"
+		}
+	]
+}

@@ -1,0 +1,104 @@
+{
+	"info": {
+		"_postman_id": "d5799ae5-5cb3-4e66-89c8-d31aaddbc519",
+		"name": "Accion registrarNombreProducto",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "33997262"
+	},
+	"item": [
+		{
+			"name": "registrarProductoPapel",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombreProducto\" : \"Papel para impresora\",\r\n    \"claveProducto\": \"ABC1\",\r\n    \"descripcion\" : \"500 hojas de papel blanco tamaño carta\",\r\n    \"ivaProducto\" : 0.16,\r\n    \"fkUsuarioRegistro\": 2\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/api/ServiciosRestBSC/registrarNombreProducto/",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"ServiciosRestBSC",
+						"registrarNombreProducto",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "registrarProductoVino",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombreProducto\" : \"Vino\",\r\n    \"claveProducto\": \"ABC2\",\r\n    \"descripcion\" : \"Vino tinto 750 ml\",\r\n    \"ivaProducto\" : 0.30,\r\n    \"fkUsuarioRegistro\": 2\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/api/ServiciosRestBSC/registrarNombreProducto/",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"ServiciosRestBSC",
+						"registrarNombreProducto",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "registrarProductoSopa",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombreProducto\" : \"Sopa\",\r\n    \"claveProducto\": \"ABC3\",\r\n    \"descripcion\" : \"Sopa de harina 250 grs\",\r\n    \"ivaProducto\" : 0.16,\r\n    \"fkUsuarioRegistro\": 2\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/api/ServiciosRestBSC/registrarNombreProducto/",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"ServiciosRestBSC",
+						"registrarNombreProducto",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"variable": [
+		{
+			"key": "baseUrl",
+			"value": "https://localhost:7007",
+			"type": "default"
+		}
+	]
+}

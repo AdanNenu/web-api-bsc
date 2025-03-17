@@ -1,0 +1,102 @@
+{
+	"info": {
+		"_postman_id": "5ef1a6c8-486d-4922-a61b-3d9a442fdf78",
+		"name": "Accion registrarUsuario",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "33997262",
+		"_collection_link": "https://crimson-capsule-915586.postman.co/workspace/New-Team-Workspace~fa460d1f-4009-4d80-9319-db933ef5b2f7/collection/33997262-5ef1a6c8-486d-4922-a61b-3d9a442fdf78?action=share&source=collection_link&creator=33997262"
+	},
+	"item": [
+		{
+			"name": "agregaUsuarioA",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"fkPerfil\": 1,\r\n        \"nombreUsuario\": \"adamendezeng\",\r\n        \"correoElectronico\": \"adamendezeng@gmail.com\",\r\n        \"fkUsuarioRegistro\": 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/api/ServiciosRestBSC/registrarUsuario",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"ServiciosRestBSC",
+						"registrarUsuario"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "agregaUsuarioB",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"fkPerfil\": 2,\r\n        \"nombreUsuario\": \"eliasAdministrativa\",\r\n        \"correoElectronico\": \"eliasadministrativa@gmail.com\",\r\n        \"fkUsuarioRegistro\": 1\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/api/ServiciosRestBSC/registrarUsuario",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"ServiciosRestBSC",
+						"registrarUsuario"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "agregaUsuarioC",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"fkPerfil\": 3,\r\n        \"nombreUsuario\": \"juanVendedor\",\r\n        \"correoElectronico\": \"juanvendedor@gmail.com\",\r\n        \"fkUsuarioRegistro\": 1\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/api/ServiciosRestBSC/registrarUsuario",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"ServiciosRestBSC",
+						"registrarUsuario"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"variable": [
+		{
+			"key": "baseUrl",
+			"value": "https://localhost:7007",
+			"type": "default"
+		}
+	]
+}
